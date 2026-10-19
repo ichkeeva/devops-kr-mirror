@@ -3,3 +3,6 @@ def validate_email(email: str) -> bool:
 
 def validate_phone(phone: str) -> bool:
     return len(phone) >= 10
+
+def validate_snils(snils: str) -> bool:
+    return len(snils) == 11
